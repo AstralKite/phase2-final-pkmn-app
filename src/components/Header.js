@@ -22,10 +22,6 @@ function Header( {darkMode, setDarkMode} ){
                 <NavLink className='buttonNav'  to="/cards/add">Add Card</NavLink>
             </nav>
 
-            <span>
-                <button className='mode' onClick={toggleDarkMode}>{buttonMode}</button>
-            </span>
-
         </div>
     )
 }

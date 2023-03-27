@@ -70,11 +70,12 @@ function Form( {onAddPokemon} ){
             },
             body: JSON.stringify(formData),
         })
-        
-        setFormData(initialState);
-        onAddPokemon(formData);
-        setSearchPokemon("");
-        history.push("/cards");
+            .then( ()=> {
+            setFormData(initialState);
+            onAddPokemon(formData);
+            setSearchPokemon("");
+            history.push("/cards");
+        })
     }
 
     return(

@@ -4,7 +4,10 @@ This project was created for [Flat Iron Schools](https://flatironschool.com/) ph
 
 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `Video walkthrough of how to use this app` Pokemon Cards collection
+[Video walkthrough](https://www.youtube.com/watch?v=aUX1g_ZqBLA)
+
 
 ### `How to view` Pokemon Cards collection
 Using the navigation bar at the top of the app, click on `View Cards` to view the current collection of Pokemon cards.

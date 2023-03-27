@@ -11,11 +11,9 @@ import './App.css';
 
 function App() {
 
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
     <div className="App">
-      <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Header/>
       <Switch>
 
         <Route exact path="/">

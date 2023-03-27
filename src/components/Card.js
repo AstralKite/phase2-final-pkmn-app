@@ -12,6 +12,8 @@ function Card( {name, nickName, type, image, id, onDeletePokemon, onCardEdit, po
     }
 
     const handleEditClick = () => {
+        console.log("poke data: ", pokemonAllData);
+        console.log("", )
         onCardEdit(pokemonAllData);
       };
 
@@ -22,7 +24,7 @@ function Card( {name, nickName, type, image, id, onDeletePokemon, onCardEdit, po
             <p>Type: {type}</p>
             <img className="cardImg" src={image}></img>
             <button className="button" onClick={handleDeletePokemon}>{"Delete"}</button>
-            <Link className="button" to={`/cards/${id}/edit`} onchandleEditClick={handleEditClick}>{"Change_Nickname"}</Link>
+            <Link className="button" to={`/cards/${id}/edit`} >{"Change_Nickname"}</Link>
         </div>
     )
 }

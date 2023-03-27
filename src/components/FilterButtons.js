@@ -9,6 +9,7 @@ function FilterButtons( {setSelectedType} ){
             <button onClick={ ()=> setSelectedType("fire")      } id="fire"       >Fire</button>
             <button onClick={ ()=> setSelectedType("grass")     } id="grass"      >Grass</button>
             <button onClick={ ()=> setSelectedType("water")     } id="water"      >Water</button>
+            <button onClick={ ()=> setSelectedType("bug")       } id="bug"        >Bug</button>
             <button onClick={ ()=> setSelectedType("electric")  } id="electric"   >Electric</button>
             <button onClick={ ()=> setSelectedType("fighting")  } id="fighting"   >Fighting</button>
             <button onClick={ ()=> setSelectedType("psychic")   } id="psychic"    >Psychic</button>

@@ -43,6 +43,7 @@ function CardsContainer(){
     }
 
     const onCompleteEditing = (updatedCard) => {
+      console.log(updatedCard)
         setCardCollection( pokemon => pokemon.map( originalCards => {
           if (originalCards.id === updatedCard.id){
             return updatedCard;
